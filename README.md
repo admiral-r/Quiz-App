@@ -4,7 +4,10 @@ Quiz game with playing music and clicking sound
 The parts to add questions specified in the script file
 
 
-<img align="center" src="Quiz-App.gif">
+<img align="center" src="quiz1.png">
+<img align="center" src="quiz2.png">
+<img align="center" src="quiz3.png">
+<img align="center" src="quiz4.png">
 
 ## Description
 
