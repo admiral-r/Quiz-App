@@ -228,29 +228,6 @@ function loadQuiz() {
     c_text.innerText = currentQuizData.c;
     d_text.innerText = currentQuizData.d;
 }
-
-
-
-// It is called every time during the initial page load and to move the data
-function loadQuiz() {
-    stop = true;
-    timeBarProgress()
-    document.getElementById('a').style.display = 'none';
-    document.getElementById('b').style.display = 'none';
-    document.getElementById('c').style.display = 'none';
-    document.getElementById('d').style.display = 'none';
-    a_text.parentElement.style.backgroundColor = '#546F79';
-    b_text.parentElement.style.backgroundColor = '#546F79';
-    c_text.parentElement.style.backgroundColor = '#546F79';
-    d_text.parentElement.style.backgroundColor = '#546F79';
-    answerEls.forEach(answerEl => answerEl.checked = false);
-    var currentQuizData = quizData[currentQuiz];
-    questionEl.innerText = currentQuizData.question;
-    a_text.innerText = currentQuizData.a;
-    b_text.innerText = currentQuizData.b;
-    c_text.innerText = currentQuizData.c;
-    d_text.innerText = currentQuizData.d;
-}
 scores.innerHTML = quizData.length + ' - ' + Question;
 progress1.style.width = scoreProgress + '%';
 progress2.style.width = wrongProgress + '%';
